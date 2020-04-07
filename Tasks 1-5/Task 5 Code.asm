@@ -1,0 +1,39 @@
+
+; You may customize this and other start-up templates; 
+; The location of this template is c:\emu8086\inc\0_com_template.txt
+
+org 100h
+
+; add your code here
+                    
+                    
+                    
+                    
+ mov ax,8;
+ mov bx,7;
+ ;mov cx,6;
+ 
+ 
+ 
+ 
+ 
+ equals:
+ mul bx;
+ dec bx;
+ 
+ 
+ cmp ax,40320;
+ je exit
+ 
+ 
+ 
+ jmp equals
+ 
+ exit:
+                           
+                    
+ret
+
+
+
+
